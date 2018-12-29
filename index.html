@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang=pt class=no-js>
+
+<head>
+	<meta charset=utf-8>
+	<title>Washington Developer</title>
+	<meta name=description content="">
+	<meta name=author content="">
+	<meta http-equiv=X-UA-Compatible content="IE=edge">
+	<meta name=viewport content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+	<link href="images/favicon.ico" rel=icon />
+	<link rel=stylesheet href="libs/bootstrap.min.css">
+	<!-- Icon fonts -->
+	<!-- Google fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7COpen+Sans:400,600,700" rel=stylesheet>
+	<!-- Main styles -->
+	<link rel=stylesheet href="css/style.css">
+</head>
+
+<body class=slider-top>
+	<!-- Start Header -->
+	<header id=top-nav>
+		<div class=container>
+			<div class=row>
+				<!-- Logo -->
+				<a class="logo smooth-scroll" href="#top">Washington<span>Developer</span></a>
+				<!-- Top navigation -->
+				<nav class=top-menu>
+					<ul class="sf-menu clearfix">
+						<li><a href=index.html>Home pages</a>
+							<ul>
+								<li><a href=dark.html>Home - Dark</a></li>
+								<li><a href=dark-canvas.html>Home - Dark Canvas</a></li>
+								<li><a href=dark-canvas-two.html>Home - Dark Canvas 2</a></li>
+								<li><a href=light.html>Home - Light</a></li>
+								<li><a href=light-canvas-two.html>Home - Light Canvas</a></li>
+								<li><a href=dark-video.html>Home - Video BG</a></li>
+								<li><a href=slider.html>Home - Light Slider</a></li>
+								<li><a href=slider-dark.html>Home - Slider Dark</a></li>
+							</ul>
+						</li>
+						<li><a href="#about" class=smooth-scroll>About</a></li>
+						<li><a href="#works" class=smooth-scroll>Works</a></li>
+						<li><a href="#testimonials" class=smooth-scroll>Testimonials</a></li>
+						<li><a href=blog.html class=smooth-scroll>Blog</a></li>
+						<li><a href="#contact" class=smooth-scroll>Contact</a></li>
+					</ul>
+				</nav>
+				<!-- Toggle menu -->
+				<a href="#" class=toggle-mnu>
+					<span></span>
+				</a>
+				<!-- Mobile menu -->
+				<div id=mobile-menu>
+					<div class=inner-wrap>
+						<nav>
+							<ul class=nav_menu>
+								<li class="menu-item-has-children current-menu-item">
+									<a href="#">Home pages</a>
+									<ul class=sub-menu>
+										<li><a href=index.html>Home - Default</a></li>
+										<li><a href=dark.html>Home - Dark</a></li>
+										<li><a href=dark-canvas.html>Home - Dark Canvas</a></li>
+										<li><a href=dark-canvas-two.html>Home - Dark Canvas 2</a></li>
+										<li><a href=light.html>Home - Light</a></li>
+										<li><a href=light-canvas-two.html>Home - Light Canvas</a></li>
+										<li><a href=dark-video.html>Home - Video BG</a></li>
+										<li><a href=slider.html>Home - Light Slider</a></li>
+										<li><a href=slider-dark.html>Home - Slider Dark</a></li>
+									</ul>
+								</li>
+								<li><a href="#about" class=smooth-scroll>About me</a></li>
+								<li><a href="#works" class=smooth-scroll>My works</a></li>
+								<li><a href="#testimonials" class=smooth-scroll>Testimonials</a></li>
+								<li><a href=blog.html class=smooth-scroll>Blog</a></li>
+								<li><a href="#contact" class=smooth-scroll>Contact</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div><!-- end mobile menu -->
+			</div>
+		</div>
+	</header>
+	<!-- Start Slider section	 -->
+	<section class=slider id=top>
+		<!-- Start Slider container -->
+		<div class=full-slider>
+			<!-- Start Slide item -->
+			<div class="slide vertical-align bg-mask-black-30" data-image="img/bgn1.jpg">
+				<div class="container-slide center">
+					<div class=container>
+						<div class=row>
+							<div class="col-md-12 content-mill">
+								<div class=content-slide>
+									<div class=description>
+										<p>Hello! i'm</p>
+									</div>
+									<!-- heading title -->
+									<h1 class="heading-title-big ">
+										Washington Developer
+									</h1>
+									<!-- horizontal line -->
+									<span class=horizontal-line><span></span></span>
+									<div class="btn-description tlt">
+										<ul class="texts hidden">
+											<li data-out-effect=fadeOut data-out-shuffle=true>Ui/UX</li>
+											<li data-in-effect=fadeIn>FullStack Developer</li>
+											<li data-in-effect=fadeIn>Engineer Software</li>
+											<li data-in-effect=fadeIn>For Your Business</li>
+											<li data-in-effect=fadeIn>Let's work together</li>
+										</ul>
+									</div>
+									<div class=button-section>
+										<a href="#contact" class="btn btn-blue smooth-scroll">Hire now!</a>
+										<a href="#works" class="btn btn-dark smooth-scroll">View works</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Canvas -->
+				<div id=particles-js class=canvas-background></div>
+				<!-- loader -->
+				<div class=loader>
+					<div class=loader_inner></div>
+				</div>
+			</div>
+		</div>
+		<!-- Strat Control slider -->
+		<div class=control-slider>
+			<!-- Pagiation container -->
+			<div class=dots-control id=dots-control-full-slider></div>
+			<!-- Prev - Next -->
+			<div class=prev-next>
+				<div class=prev><i class=pe-7s-angle-left></i></div>
+				<div class=next><i class=pe-7s-angle-right></i></div>
+			</div>
+		</div>
+	</section>
+	<!-- Start socialite container -->
+	<div class=socialite>
+		<div class=container>
+			<div class=row>
+				<div class=container-socialite>
+					<div class="icon-down toBottomFromTop">
+						<a href="#about" class=smooth-scroll>
+							<i class=pe-7s-angle-down></i>
+						</a>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 item">
+					<a href="#"><img src="img/s3.svg" alt=instagram></a>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 item">
+					<a href="#"><img src="img/s2.svg" alt=facebook></a>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 item">
+					<a href=""><img src="img/s1.svg" alt=pinterest></a>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 item">
+					<a href=""><img src="img/s4.svg" alt=twitter></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Start Describe Your Best Section -->
+	<section class=describe id=about>
+		<div class=container>
+			<div class=row>
+				<!-- iphones -->
+				<div class="col-md-5 col-md-push-7">
+					<img src="img/was.jpg" class=img-responsive alt="my photo">
+				</div>
+				<div class="col-md-6 col-md-pull-5">
+					<div class="heading-title text-left">
+						<h2>I am Dynamic and Creative</h2>
+						<p>Impossible considered invitation him men instrument saw celebrated unpleasant. Put rest and must set kind next many
+							near nay. He exquisite continued explained middleton am. Voice hours young woody has she think equal. Estate moment
+							he at on wonder at season little. Six garden result summer set family esteem nay estate.
+						</p>
+						<p>
+							Her extensive perceived may any sincerity extremity. Indeed add rather may pretty see. Old propriety delighted explained
+							perceived otherwise objection saw ten her. Doubt merit sir the right these alone keeps.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Start Our Features section	 -->
+	<section class="features bg-mask-white bg-image" data-image="img/bgn1.jpg">
+		<div class=container>
+			<div class=row>
+				<!-- Item -->
+				<div class="col-md-3 col-sm-6 col-xs-12 item-icon">
+					<div class=icon-container>
+						<div class="icon icon-circle">
+							<i class=pe-7s-diamond></i>
+						</div>
+					</div>
+					<h3>Graphic design</h3>
+					<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+				</div>
+				<!-- Item -->
+				<div class="col-md-3 col-sm-6 col-xs-12 item-icon">
+					<div class=icon-container>
+						<div class="icon icon-circle">
+							<i class=pe-7s-phone></i>
+						</div>
+					</div>
+					<h3>Web Developer</h3>
+					<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+				</div>
+				<!-- Item -->
+				<div class="col-md-3 col-sm-6 col-xs-12 item-icon">
+					<div class=icon-container>
+						<div class="icon icon-circle">
+							<i class=pe-7s-video></i>
+						</div>
+					</div>
+					<h3>Video editor</h3>
+					<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+				</div>
+				<!-- Item -->
+				<div class="col-md-3 col-sm-6 col-xs-12 item-icon">
+					<div class=icon-container>
+						<div class="icon icon-circle">
+							<i class=pe-7s-paint></i>
+						</div>
+					</div>
+					<h3>Customization</h3>
+					<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+				</div>
+				<!-- Edn items -->
+			</div>
+		</div>
+	</section>
+	<!-- Start Screenshots Section -->
+	<section class=portfolio id=works>
+		<div class=container>
+			<div class=row>
+				<div class="col-md-8 col-md-push-2">
+					<div class=heading-title>
+						<h2>My works</h2>
+					</div>
+				</div>
+			</div>
+			<div class=row>
+				<div class=controls-portfolio>
+					<ul id=control-portfolio class=text-center>
+						<li id=liact class="filter select-cat" data-filter="*">All</li>
+						<li class=filter data-filter=.category-2>Design</li>
+						<li class=filter data-filter=.category-3>Mobile apps</li>
+					</ul>
+				</div>
+				<div id=portfolio>
+					<!-- Start Block item -->
+					<div class="col-md-4 col-lg-4 col-sm-4 col-xs-6 mix category-1">
+						<a href="img/work-1.jpg" class=link-portfolio>
+							<div class=item-portfolio>
+								<div class=preview-container>
+									<div class="button-preview icon-circle">
+										<span class=preview><i class=pe-7s-search></i></span>
+									</div>
+								</div>
+								<img src="img/work-1.jpg.pagespeed.ce.gyPiSFkxLm.jpg" alt=screnshot>
+							</div>
+						</a>
+					</div>
+					<!-- Block item -->
+					<div class="col-md-4 col-lg-4 col-sm-4 col-xs-6 mix category-2">
+						<a href="img/work-2.jpg" class=link-portfolio>
+							<div class=item-portfolio>
+								<div class=preview-container>
+									<div class="button-preview icon-circle">
+										<span class=preview><i class=pe-7s-search></i></span>
+									</div>
+								</div>
+								<img src="img/work-2.jpg.pagespeed.ce.49CU-Zlp3q.jpg" alt=screnshot>
+							</div>
+						</a>
+					</div>
+					<!-- Block item -->
+					<div class="col-md-4 col-lg-4 col-sm-4 col-xs-6 mix category-3">
+						<a href="img/work-3.jpg" class=link-portfolio>
+							<div class=item-portfolio>
+								<div class=preview-container>
+									<div class="button-preview icon-circle">
+										<span class=preview><i class=pe-7s-search></i></span>
+									</div>
+								</div>
+								<img src="img/work-3.jpg.pagespeed.ce.Xvr3-rfKyB.jpg" alt=screnshot>
+							</div>
+						</a>
+					</div>
+					<!-- Block item -->
+					<div class="col-md-4 col-lg-4 col-sm-4 col-xs-6 mix category-1">
+						<a href="img/work-4.jpg" class=link-portfolio>
+							<div class=item-portfolio>
+								<div class=preview-container>
+									<div class="button-preview icon-circle">
+										<span class=preview><i class=pe-7s-search></i></span>
+									</div>
+								</div>
+								<img src="img/work-4.jpg.pagespeed.ce.qt4iAhWoe7.jpg" alt=screnshot>
+							</div>
+						</a>
+					</div>
+					<!-- Block item -->
+					<div class="col-md-4 col-lg-4 col-sm-4 col-xs-6 mix category-3">
+						<a href="img/work-5.jpg" class=link-portfolio>
+							<div class=item-portfolio>
+								<div class=preview-container>
+									<div class="button-preview icon-circle">
+										<span class=preview><i class=pe-7s-search></i></span>
+									</div>
+								</div>
+								<img src="img/work-5.jpg.pagespeed.ce.kbU3Qh69sM.jpg" alt=screnshot>
+							</div>
+						</a>
+					</div>
+					<!-- Block item -->
+					<div class="col-md-4 col-lg-4 col-sm-4 col-xs-6 mix category-2">
+						<a href="img/work-6.jpg" class=link-portfolio>
+							<div class=item-portfolio>
+								<div class=preview-container>
+									<div class="button-preview icon-circle">
+										<span class=preview><i class=pe-7s-search></i></span>
+									</div>
+								</div>
+								<img src="img/work-6.jpg.pagespeed.ce.LNkZuD2gsk.jpg" alt=screnshot>
+							</div>
+						</a>
+					</div>
+					<!-- Block item -->
+					<!-- End Block item -->
+				</div><!-- Edn div screenshot`s -->
+				<!-- End Control slider -->
+			</div>
+		</div>
+	</section>
+	<!-- Start Testimonials Section -->
+	<section class="testimonials bg-mask-white bg-image" data-image="img/bgn2.jpg" id=testimonials>
+		<div class=container>
+			<div class=row>
+				<div class="col-md-8 col-md-push-2">
+					<div class=heading-title>
+						<h2>Testimonials</h2>
+					</div>
+				</div>
+			</div>
+			<div class=row>
+				<div class=container-carousel>
+					<div class=testimonials-items>
+						<!-- Start Block item -->
+						<div class=col-md-4>
+							<div class=item-testimonials>
+								<img src="img/ava.jpg.pagespeed.ce.cyrPAZxh_G.jpg" alt=photo>
+								<p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
+									dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation.</p>
+								<span>Alex Rezvova</span>
+								<span>Designer, Company name</span>
+							</div>
+						</div>
+						<!-- Block item -->
+						<div class=col-md-4>
+							<div class=item-testimonials>
+								<img src="img/ava2.jpg.pagespeed.ce.AUsCyU9FDY.jpg" alt=photo>
+								<p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
+									dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation.</p>
+								<span>Jacob Kai</span>
+								<span>Creative Director, Company name</span>
+							</div>
+						</div>
+						<!-- Block item -->
+						<div class=col-md-4>
+							<div class=item-testimonials>
+								<img src="img/ava3.jpg.pagespeed.ce.iEJ117dDHU.jpg" alt=photo>
+								<p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
+									dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation.</p>
+								<span>Albin Erlend</span>
+								<span>Programer, Company name</span>
+							</div>
+						</div>
+						<!-- Block item -->
+						<div class=col-md-4>
+							<div class=item-testimonials>
+								<img src="img/ava4.jpg.pagespeed.ce.cA43etjW8v.jpg" alt=photo>
+								<p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
+									dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation.</p>
+								<span>Alex Rezvova</span>
+								<span>Designer, Company name</span>
+							</div>
+						</div>
+						<!-- Block item -->
+						<div class=col-md-4>
+							<div class=item-testimonials>
+								<img src="img/ava5.jpg.pagespeed.ce.VzLnx70b49.jpg" alt=photo>
+								<p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
+									dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation.</p>
+								<span>Jacob Kai</span>
+								<span>Creative Director, Company name</span>
+							</div>
+						</div>
+						<!-- End Block item -->
+					</div>
+					<!-- Strat Control carousel -->
+					<div class=prev-next-block id=control-testimonials>
+						<div class=prev><i class=pe-7s-angle-left></i></div>
+						<div class=next><i class=pe-7s-angle-right></i></div>
+					</div>
+					<!-- End Control carousel -->
+				</div>
+				<!-- Dots control carousel -->
+				<div class=dots-screenshot id=dots-control-testimonials></div>
+			</div>
+		</div>
+	</section>
+	<!-- Start Contact Section -->
+	<section class=contact-info>
+		<div class=container>
+			<div class=row>
+				<div class="col-md-10 col-md-push-1">
+					<!-- Block item -->
+					<div class="col-md-4 col-sm-4 contacn-block">
+						<div class="section-class-item icon-circle-border">
+							<div class=item-icon>
+								<span class="icon-wrap icon-services"><i class="fa fa-phone" aria-hidden=true></i></span>
+							</div>
+							<div class="item-text text-center">
+								<h3>Phone</h3>
+								<p>066-677-666-55</p>
+							</div>
+						</div>
+					</div>
+					<!-- Block item -->
+					<div class="col-md-4 col-sm-4 contacn-block">
+						<div class="section-class-item icon-circle-border">
+							<div class=item-icon>
+								<span class="icon-wrap icon-services"><i class="fa fa-envelope-o" aria-hidden=true></i></span>
+							</div>
+							<div class="item-text text-center">
+								<h3>Email</h3>
+								<p>name@site.com</p>
+							</div>
+						</div>
+					</div>
+					<!-- Block item -->
+					<div class="col-md-4 col-sm-4 contacn-block">
+						<div class="section-class-item icon-circle-border">
+							<div class=item-icon>
+								<span class="icon-wrap icon-services"><i class="fa fa-map-marker" aria-hidden=true></i></span>
+							</div>
+							<div class="item-text text-center">
+								<h3>Address</h3>
+								<p>East Madison St, Baltimore, MD, USA</p>
+							</div>
+						</div>
+					</div>
+					<!-- Block item -->
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Start Contact Form Section -->
+	<section class="form-contact bg-mask-white bg-image" data-image="img/bgn.jpg" id=contact>
+		<div class=container>
+			<div class=row>
+				<div class="col-md-8 col-md-push-2">
+					<div class=heading-title>
+						<h2>Contact with me</h2>
+						<p>Write to me a message</p>
+					</div>
+				</div>
+			</div>
+			<div class=row>
+				<div class=contact-form>
+					<form id=contact-form class=contact-form>
+						<!-- Input name -->
+						<div class=col-md-4>
+							<p>
+								<input type=text required="" name=name class=form-control placeholder=" Your name">
+							</p>
+						</div>
+						<!-- Input email -->
+						<div class=col-md-4>
+							<p class=contact-form-email>
+								<input type=email required="" name=email class=form-control placeholder="Your email">
+							</p>
+						</div>
+						<!-- Input website -->
+						<div class=col-md-4>
+							<p class=contact-form-email>
+								<input type=text name=website class=form-control placeholder="Your website">
+							</p>
+						</div>
+						<!-- textarea -->
+						<div class=col-md-12>
+							<p class=contact-form-message>
+								<textarea rows=9 required="" name=message class=form-control placeholder="Your message"></textarea>
+							</p>
+							<p id=success class="hidden notify">Your message has been send</p>
+							<p id=error class="hidden notify">Error sending message</p>
+							<p class=contact-form-submit>
+								<input type=submit value="Send message" class="btn btn-blue btn-form">
+							</p>
+						</div>
+					</form>
+				</div><!-- end contact section -->
+			</div>
+		</div>
+	</section>
+	<!-- Start footer -->
+	<footer>
+		<div class=container>
+			<div class=row>
+				<div class=col-md-12>
+					<div class=heading-title>
+						<h2><span>Washington<span>Developer</span></span></h2>
+					</div>
+					<div class=social-inons>
+						<ul>
+							<li class=icon-circle><a href="#"><i class="fa fa-facebook" aria-hidden=true></i></a></li>
+							<li class=icon-circle><a href="#"><i class="fa fa-twitter" aria-hidden=true></i></a></li>
+							<li class=icon-circle><a href="#"><i class="fa fa-dribbble" aria-hidden=true></i></a></li>
+							<li class=icon-circle><a href="#"><i class="fa fa-google-plus" aria-hidden=true></i></a></li>
+							<li class=icon-circle><a href="#"><i class="fa fa-youtube" aria-hidden=true></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class=row>
+				<div class="bottom-footer white-color">
+					<div class=col-md-6>
+						<div class=footer-copyright>
+							<p>Washington Developer <a href="https://www.washingtondeveveloper.com.br"
+								 target=_blank>WashingtonDeveloper</a></p>
+						</div>
+					</div>
+					<div class=col-md-6>
+						<!-- Bottom nav -->
+						<div class=footer-menu>
+							<ul>
+								<li><a href="#">Terms</a></li>
+								<li><a href="#">Privacy Policy</a></li>
+								<li><a href="#">Licenses</a></li>
+							</ul>
+						</div>
+						<!-- End Bottom nav -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- Scroll to top -->
+	<div class="top icon-down toTopFromBottom">
+		<a href="#top" class=smooth-scroll><i class=pe-7s-angle-up></i></a>
+	</div>
+	<!--[if lt IE 9]>
+		<script src="libs/html5shiv/es5-shim.min.js"></script>
+		<script src="libs/html5shiv/html5shiv.min.js"></script>
+		<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+		<script src="libs/respond/respond.min.js"></script>
+		<![endif]-->
+	<!-- LIBS -->
+	<script src="libs/jquery/jquery.1.12.0.js"></script>
+	<script src="js/libs.js.pagespeed.ce.fxGzcd_n-i.js"></script>
+	<!-- Use scripts -->
+	<script src="js/common.js.pagespeed.ce.OE69bCeok2.js"></script>
+</body>
+
+</html>
